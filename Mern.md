@@ -32,7 +32,7 @@ yarn create vite; cd project; yarn; yarn add axios react-icons react-router-dom;
 ```
 ## Backend Setup
 ```bash
-npm init -y
+npm init -y; ni server.js
 ```
 ```bash
   "main": "server.js",
@@ -42,7 +42,7 @@ npm init -y
 "dev": "nodemon server.js"
 ```
 ```bash
-yarn add mongoose express body-parser bcrypt cors crypto-js dotenv nodemailer mongoose passport passport-local  
+yarn add mongoose express body-parser bcrypt cors crypto-js dotenv nodemailer mongoose passport passport-local morgan
 ```
 ```bash
 yarn add -D nodemon
