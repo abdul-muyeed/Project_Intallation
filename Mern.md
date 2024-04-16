@@ -42,7 +42,7 @@ npm init -y; ni server.js
 "dev": "nodemon server.js"
 ```
 ```bash
-yarn add mongoose express body-parser bcrypt cors crypto-js dotenv nodemailer mongoose passport passport-local morgan
+yarn add mongoose express body-parser bcrypt cors crypto-js dotenv nodemailer mongoose passport passport-local morgan axios
 ```
 ```bash
 yarn add -D nodemon
